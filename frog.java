@@ -7,10 +7,8 @@ public class frog{
 		int weight[]=new int[n];
 		int jump[]=new int[n];
 		int count=0;
-		int test_case=in.nextInt();
 		int pos[]=new int[n];
-		while(test_case>0)
-		{
+		
 					for(int i=0;i<n;i++)
 		{
 			weight[i]=in.nextInt();
@@ -61,7 +59,7 @@ public class frog{
 		}
 		System.out.println(count);
 
-		}
+		
 
 		
 
